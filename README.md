@@ -7,7 +7,6 @@ Here are the steps for bridging ERC20 tokens from Goerli to Mumbai using fxPorta
 
 Begin by running 
 ```
-
 npm i
 ```
 
@@ -17,7 +16,6 @@ In the .env.examples file, input your private key and then rename the file to .e
 
 Deploy the ERC20 contract by running 
 ```
-
 npx hardhat run scripts/deploy.js --network goerli.
 ```
 
