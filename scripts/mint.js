@@ -10,7 +10,7 @@ async function main() {
 
   const contractAddress = "0xa4bA6d92fDb92EC6F65aE5ea60956A8ACEBb12DF";
 
-  const astronaut = await ethers.getContractFactory("astronaut", signer);
+  const astronaut = await ethers.getContractFactory("Lamborghini", signer);
   const astronaut_contract = await astronaut.attach(contractAddress);
 
   await astronaut_contract.mint(5);
